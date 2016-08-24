@@ -24,7 +24,7 @@ package hxsignal.ds;
  * ...
  * @author German Allemand
  */
-class LinkedList<T> extends List<T>
+class LinkedList<T> extends ClonedList<T>
 {
 	public function new()
 	{
